@@ -1,9 +1,0 @@
-启动命令
-
-java -jar server.jar
-
-生成的节点信息保存在list.txt sub.txt文件里
-
-添加固定隧道时http协议那里填的端口为8080，即 localhost:8080
-
-把原服务器的server.jar改成server1.jar，再上代码的server.jar和start.sh两个文件上去即可开机，这个代码固定隧道可用，用其它代码不可用，只支持临时隧道
